@@ -91,6 +91,8 @@
 }
 .banner-image {
   width: 100%;
+  /* margin-bottom: 45px; */
+  /* padding: 40px 40px 40px 40px; */
 }
 .banner-description {
   line-height: 26px;
@@ -157,6 +159,10 @@ main > section {
   .team-img-container {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.somefacts p {
+  max-width: 542px;
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
